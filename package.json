@@ -1,0 +1,13 @@
+{
+  "name": "chat_app",
+  "version": "1.0.0",
+  "description": "This is a fully functional real-time chat application built using the \"MERN Stack\" with \"Socket.IO\". It allows users to register, update profiles, send/receive messages in real-time, and track user activity such as online status and unread messages.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix server && npm install --prefix client && npm run build --prefix client",
+    "start": "npm run start --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
